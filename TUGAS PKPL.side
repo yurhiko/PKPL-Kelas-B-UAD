@@ -1,0 +1,253 @@
+{
+  "id": "9dd39e86-c22f-4e06-8679-b9cc53737417",
+  "version": "2.0",
+  "name": "TUGAS PKPL",
+  "url": "https://docar.co.id/anggota-login",
+  "tests": [{
+    "id": "751dbc65-a597-42bf-aa88-11307422f7a6",
+    "name": "Register Test",
+    "commands": [{
+      "id": "1cffb5e4-6e75-43a4-bee4-fd9dee70d696",
+      "comment": "",
+      "command": "open",
+      "target": "https://docar.co.id/pendaftaran-member",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5c9adf7-26c9-46f3-a62e-d90a0a23f397",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x871",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c73030e6-3817-4b9e-97ee-0238d7b20c11",
+      "comment": "",
+      "command": "click",
+      "target": "id=fn",
+      "targets": [
+        ["id=fn", "id"],
+        ["name=fn", "name"],
+        ["css=#fn", "css:finder"],
+        ["xpath=//input[@id='fn']", "xpath:attributes"],
+        ["xpath=//table[@id='regSales']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a53ef8ee-f68f-4124-b962-9afe59abdc0c",
+      "comment": "",
+      "command": "type",
+      "target": "id=fn",
+      "targets": [
+        ["id=fn", "id"],
+        ["name=fn", "name"],
+        ["css=#fn", "css:finder"],
+        ["xpath=//input[@id='fn']", "xpath:attributes"],
+        ["xpath=//table[@id='regSales']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": "Yurhiko Arshal Fauzan"
+    }, {
+      "id": "c9b04937-abad-49e5-8c69-c515ac775779",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=em", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//table[@id='regSales']/tbody/tr[2]/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[3]/input", "xpath:position"]
+      ],
+      "value": "arsal.new017@gmail.com"
+    }, {
+      "id": "75ab1c92-11db-49aa-84fb-0fe8aa020443",
+      "comment": "",
+      "command": "type",
+      "target": "id=ph",
+      "targets": [
+        ["id=ph", "id"],
+        ["name=ph", "name"],
+        ["css=#ph", "css:finder"],
+        ["xpath=//input[@id='ph']", "xpath:attributes"],
+        ["xpath=//table[@id='regSales']/tbody/tr[3]/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[3]/input", "xpath:position"]
+      ],
+      "value": "08979328465"
+    }, {
+      "id": "cf0ae7b1-ead3-4f99-acff-8b4198acfe07",
+      "comment": "",
+      "command": "type",
+      "target": "id=password1",
+      "targets": [
+        ["id=password1", "id"],
+        ["name=p", "name"],
+        ["css=#password1", "css:finder"],
+        ["xpath=//input[@id='password1']", "xpath:attributes"],
+        ["xpath=//table[@id='regSales']/tbody/tr[4]/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[3]/input", "xpath:position"]
+      ],
+      "value": "katasandi123"
+    }, {
+      "id": "76576c41-b059-49dd-a54c-bd252b63397c",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6c40890-7ea3-467b-b994-be522b843ce9",
+      "comment": "",
+      "command": "click",
+      "target": "id=recaptcha-anchor-label",
+      "targets": [
+        ["id=recaptcha-anchor-label", "id"],
+        ["css=#recaptcha-anchor-label", "css:finder"],
+        ["xpath=//label[@id='recaptcha-anchor-label']", "xpath:attributes"],
+        ["xpath=//div[@id='rc-anchor-container']/div[3]/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edc3f25d-e87c-44e8-aa9c-5b81c2cb68df",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "d571b548-a0b5-44f3-bcd7-dbaf219e5bf0",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//input[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//form[@id='registrationForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "aca19a93-2dab-4830-9057-c912b036b513",
+    "name": "Login Test",
+    "commands": [{
+      "id": "e5cf5e80-34b3-4050-8b5f-5c017befa999",
+      "comment": "",
+      "command": "open",
+      "target": "https://docar.co.id/anggota-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d70a044a-b2f8-4c12-9c86-d1fc3abdef8f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x871",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "200a227a-1d3b-4f93-8dc2-d1b38a38c486",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=em", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='tb-login']/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fcc9caf-855a-48dd-ae68-b10c13773727",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=em", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='tb-login']/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "arsal.new017@gmail.com"
+    }, {
+      "id": "84191553-a8ca-4a51-9be4-4fc99da7b02a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=p", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='tb-login']/table/tbody/tr[2]/td[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "katasandi123"
+    }, {
+      "id": "2e80e16a-123f-494f-8196-a2a9289eb8f2",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c9efffc-1ea3-4841-9452-ca7ef764853d",
+      "comment": "",
+      "command": "click",
+      "target": "id=recaptcha-anchor-label",
+      "targets": [
+        ["id=recaptcha-anchor-label", "id"],
+        ["css=#recaptcha-anchor-label", "css:finder"],
+        ["xpath=//label[@id='recaptcha-anchor-label']", "xpath:attributes"],
+        ["xpath=//div[@id='rc-anchor-container']/div[3]/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "040da7d9-b7db-46c2-a28d-22837b4eda25",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc32e08f-e401-47b6-8841-8662ff18f3e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//input[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//div[@id='body-container']/div/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5599d6d8-5c32-4ce6-8fbb-d9332423042e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://docar.co.id/", "https://docar.co.id/anggota-login"],
+  "plugins": []
+}
